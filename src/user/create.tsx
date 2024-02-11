@@ -2,6 +2,9 @@ import { useState } from "react"
 
 const create = () => {
     const [username, SetUsername] = useState("")
+    const [email, SetEmail] = useState("")
+    const [mobile, SetMobile] = useState("")
+    
 
   return (
     <div className="container mx-auto px-10">
