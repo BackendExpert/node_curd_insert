@@ -12,7 +12,9 @@ const create = () => {
             <h1>User Add</h1>
             <div className="mb-4 mt-4">
                 <label htmlFor="">Username</label>
-                <input type="text" name="" id="" className="w-full h-12 border border-gray-500 rounded" />
+                <input type="text" name="" id="" className="w-full h-12 border border-gray-500 rounded" 
+                value={username}
+                onChange={(e) => SetUsername(e.target.value)}/>
             </div>
             <div className="mb-4 mt-4">
                 <label htmlFor="">Email</label>
