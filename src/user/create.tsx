@@ -1,6 +1,8 @@
 const create = () => {
   return (
-    <div>create</div>
+    <div className="container mx-auto px-10">
+        
+    </div>
   )
 }
 
